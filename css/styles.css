@@ -1,9 +1,35 @@
+/*===========Colors======*/
+/*
+yellow : #f4c613;
+black : #000;
+grey : #212226;
+white: #fff;
+milky: #f4f4f4;
+*/
+
+
 /*===========Global======*/
-html {
-    font-family: "Raleway", sans-serif;
-    
+
+/*===========preloader======*/
+#preloader {
+    position: fixed;
+    background-color: whhite;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;    
 }
 
-h1 {
-   font-size: 5rem; 
+#status {
+    background-image: url(/img/preloader/preloader.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    right: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
 }
+
