@@ -7,28 +7,34 @@
 
     <title>LOGO - Creative Website</title>
 
+
+
     <!--  Bootstrap  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- font awesome   -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+
 
     <!--    Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- font awesome   -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+
     <link rel="stylesheet" href="css/styles.css">
+
 
     <!--  faveicon  -->
     <link rel="shortcut icon" href="img/favicon/favicon.ico">
 </head>
 
 <body>
-   
+
     <!-- preloader-->
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
-    
+
     <!--    Home -->
     <section id="home">
         <!--  background video [add loop after finishing]-->
@@ -36,16 +42,34 @@
             <source src="video/solo.mp4" type="video/mp4">
             <source src="video/solo.ogv" type="video/ogv">
             <source src="video/solo.webm" type="video/webm">
-        </video>   
-        
-        <!--  overlay on top of video --> 
-        <div id="home-overlay">            
-        </div> 
-         
+        </video>
+
+        <!--  overlay on top of video -->
+        <div id="home-overlay">
+        </div>
+
         <!--  home content -->
-           
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-deading-1">Digital</h1>
+                    <h1 id="home-heading-2">Creative <span>Agency</span></h1>
+                </div>
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos enim maiores aliquid fugit eius.</p>
+                </div>
+                <div id="home-button">
+                    <a href="#about" class="btn btn-general btn-home" title="start now" role="button">Start Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrow down  -->
+        <a href="#about" id="arrow-down">
+            <i class="fa fa-angle-double-down"></i>
+        </a>
     </section>
-    
+
     <!--    Scripts-->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
