@@ -2,13 +2,13 @@
 Colors
 ***********************************/
 
-/*
+/* ========================
 yellow : #f4c613;
 black : #000;
 grey : #212226;
 white: #fff;
 milky: #f4f4f4;
-*/
+======================== */
 
 /**********************************
 Global
@@ -159,6 +159,7 @@ Buttons
 
 }
 
+/*======Button home=============*/
 .btn-home {
     color: #fff;
     width: 11rem;
@@ -201,3 +202,144 @@ arrow down
     font-size: 2.5rem;
     bottom: 30px;
 }
+
+/**********************************
+Content boxes
+***********************************/
+.content-box-lg {
+    padding: 100px 0;
+}
+
+.content-box-md {
+    padding: 80px 0;
+}
+
+/**********************************
+Vertical headings
+***********************************/
+.vertical-heading h5 {
+    position: relative;
+    left: 0;
+    top: -30px;
+    color: #f4c613;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: inline-block;
+    font-size: 1rem;
+    word-spacing: 5px;
+}
+
+.vertical-heading h2 {
+    display: inline-block;
+    margin-left: -30px;
+    height: 100px;
+    line-height: 1.2;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.vertical-heading strong {
+    color: #f4c613;
+}
+
+/**********************************
+About-01
+***********************************/
+
+/*======About right=============*/
+#about-right p:first-child {
+    margin-bottom: 30px;
+}
+
+/*======About bottom=============*/
+#about-bottom {
+    margin: 70px 0;
+}
+#about-bottom img {
+    margin: 0 auto;
+}
+
+/**********************************
+About-02
+***********************************/
+#about-02 {
+    background-color: #f4f4f4;
+}
+
+.about-item {
+    background-color: #fff;
+    padding: 50px 30px;
+    -webkit-box-shadow: 10px 10px 10px rgba(0,0,0, 0.3);
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.3);  
+    
+}
+
+.about-item i {
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.about-item hr {
+    border: none;
+    background-color: #f4c613;
+    width: 50px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.about-item p {
+    margin-top: 20px;
+}
+
+/*======About-02 hover=============*/
+.about-item:hover {
+    background-color: #f4c613;
+}
+
+.about-item:hover i {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: #fff;
+    width: 100px;
+}
+
+.about-item,
+.about-item i,
+.about-item hr {
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
