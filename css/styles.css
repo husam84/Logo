@@ -58,12 +58,12 @@ Home
 
 #preloader {
     position: fixed;
-    background-color: whhite;
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 10;
+    z-index: 100;
 }
 
 /*======status=============*/
@@ -413,7 +413,7 @@ Team section
     height: 100%;
 }
 
-/*======Team member social icons hover state and smooth transition=============*/
+/*======social icons hover and smooth transition=============*/
 .team-member-info li:hover {
     -webkit-transition: all 0.3s linear;
     -webkit-transition: all 0.3s ease-in;
@@ -445,17 +445,56 @@ Team section
 .owl-theme .owl-nav [class*="owl-"]:hover {
     background: none;
     color: #f4c613;
-    border: none;
     -webkit-transition: color 0.1s linear;
     transition: color 0.1s linear;
 } 
 
+/**********************************
+Skills
+***********************************/
+.skill {
+    margin-bottom: 25px;
+}
+.skill h4 {
+    font-weight: normal;
+    line-height: 60px;
+    margin: 0;    
+}
+
+.progress {
+    height: 25px;
+    border-radius: 0;
+    background-color: #efefef;    
+    overflow: visible
+}
 
 
+.progress-bar {
+    background-color: #f4c613;   
+    position: relative;
+}
 
+.progress-bar span {
+    font-size: 0.68rem;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    background: #212226;
+    padding: 3px;
+    left: 97%;
+    top: -40px
+}
 
-
-
+/*======small triangle=============*/
+.progress-bar span:before {
+    content: "";
+    border-top: 8px solid #212226;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 30%;
+}
 
 
 
