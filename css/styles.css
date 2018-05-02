@@ -356,14 +356,14 @@ Team section
     background-color: rgba(33, 34, 38, 0.8);
     opacity: 0;
     padding: 60px 0;
-    -webkit-transition: opacity 0.7s linear;
-    transition: opacity 0.7s linear;
+    -webkit-transition: opacity 0.4s linear;
+    transition: opacity 0.4s linear;
 }
 
 .team-member-overlay:hover {
     opacity: 1;
-    -webkit-transition: opacity 0.7s linear;
-    transition: opacity 0.7s linear;
+    -webkit-transition: opacity 0.4s linear;
+    transition: opacity 0.4s linear;
 }
 
 .team-member-overlay h6,
@@ -415,7 +415,6 @@ Team section
 
 /*======social icons hover and smooth transition=============*/
 .team-member-info li:hover {
-    -webkit-transition: all 0.3s linear;
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
@@ -476,13 +475,13 @@ Skills
 
 .progress-bar span {
     font-size: 0.68rem;
-    font-weight: 100;
+    font-weight: 500;
     font-family: "Open Sans", sans-serif;
     position: absolute;
     background: #212226;
     padding: 3px;
     left: 97%;
-    top: -40px
+    top: -40px;
 }
 
 /*======small triangle=============*/

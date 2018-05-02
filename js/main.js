@@ -17,4 +17,14 @@ $(function(){
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
     });   
     
+    /*===========Progress bars======*/    
+    $("#progress-elements").waypoint(function(){
+        $(".progress-bar").each(function(){
+            $(this).animate({
+                width: $(this).attr("aria-valuenow") + "%"
+            }, 1300, "linear");
+        });
+        this.destroy();
+    }, {offset: "bottom-in-view"
+    });
 });
