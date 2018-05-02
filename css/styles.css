@@ -495,9 +495,34 @@ Skills
     left: 30%;
 }
 
+/**********************************
+Statement
+***********************************/
+#statement {
+    background: url(../img/tech/tech-quote.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;  
+}
 
+#statement .content-box-lg {
+    background: rgba(0,0,0,0.4);
+}
 
+#tech-statement h3 {
+    color: #fff;
+    font-size: 1.75em;
+    line-height: 40px;
+}
 
+#tech-statement p {
+    color: #f4c613; 
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    margin-top: 15px;
+}
 
 
 
