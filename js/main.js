@@ -27,4 +27,32 @@ $(function(){
         this.destroy();
     }, {offset: "bottom-in-view"
     });
+    
+    /*===========Timeline=====*/         
+    $(".timeline-container").each(function(){
+        var self = $(this);
+        $(this).waypoint(function(){            
+             self.animate({opacity: 1}, 300);                     
+             this.destroy();
+        }, {offset: "bottom-in-view"});
+    });
+    
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
