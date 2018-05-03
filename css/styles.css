@@ -542,6 +542,34 @@ A lot of modifications were made
 .timeline-container p {
     color: #fff;
     font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+}
+
+.timeline-container i {
+    color: #fff;
+    font-size: 2rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;     
+}
+
+.timeline-container:hover i {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+
+.timeline-container hr {
+     border: none;
+    background-color: #f4c613;
+    width: 60px;
+    height: 5px;
+    margin: 15px auto;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+}
+
+.timeline-container:hover hr {
+    background-color: #fff;
+    width: 100px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -557,7 +585,7 @@ A lot of modifications were made
 
 /* Container around content */
 .timeline-container {
-    padding: 10px 20px;
+    padding: 20px 20px;
     position: relative;
     background-color: #212226;
     width: 50%;
@@ -668,5 +696,6 @@ A lot of modifications were made
   }
 }
 
-
-
+/**********************************
+Services Section
+***********************************/
