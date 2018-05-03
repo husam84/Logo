@@ -37,6 +37,12 @@ $(function(){
         }, {offset: "bottom-in-view"});
     });
     
+    /*===========responsive tabs=====*/   
+    $("#service-tabs").responsiveTabs({
+        animation: 'slide'
+    });
+    
+    
 });
 
 

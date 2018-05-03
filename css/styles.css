@@ -153,9 +153,7 @@ Buttons
     border-radius: 40px;
     margin: 0 60px;
     padding: 12px 46px;
-    text-transform: uppercase;
-   
-    
+    text-transform: uppercase;    
 }
 
 /*======Button home=============*/
@@ -178,6 +176,23 @@ Buttons
     width: 15rem;
  }
 
+.btn-yellow {
+    color: #fff;
+    width: 11rem;
+    background-color: #f4c613;
+    border: 1px solid #f4c613;
+    font-weight: 600;
+     -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    border-color: #212226;
+    background-color: #212226;
+    color: #fff;
+    width: 15rem;
+}
 /**********************************
 arrow down
 ***********************************/
@@ -304,8 +319,8 @@ About-02
 .about-item {
     background-color: #fff;
     padding: 50px 30px;
-    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 .about-item i {
@@ -362,10 +377,9 @@ About-02
 /**********************************
 Team section
 ***********************************/
-
 .team-member {
     margin: 10px;
-    position: relative;
+    position: relative;   
 }
 
 /*======Team member overlay=============*/
@@ -723,7 +737,7 @@ A lot of modifications were made
 }
 
 /**********************************
-Services Section
+Services Section -01
 ***********************************/
 #services-01 img{
     margin: 60px 10px 60px 0;
@@ -766,14 +780,88 @@ Services Section
 }
 
 
+/**********************************
+Services Section -02 [tabs]
+***********************************/
+#services-02 {
+    background-color: #f4f4f4;
+}
 
+#service-tabs ul{
+    margin-bottom: 50px;    
+}
 
+#service-tabs li {
+    padding: 5px 35px;
+    text-transform: uppercase;    
+}
 
+#service-tabs li a {
+    color: #212226;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    border-bottom: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear; 
+}
 
+#service-tabs li a:hover,
+#service-tabs li.r-tabs-state-active a{
+    color: #f4c613; 
+    border-bottom: 3px solid #f4c613; 
+    padding-bottom: 5px;
+    font-weight: 800;
+}
 
+.service-tab img {
+    width: 100%;
+    margin: 0;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
 
+.service-tab .tab-bg {
+    background: #fff;
+    padding: 20px 30px;
+    height: 455px;   
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
 
+.service-tab h2,
+.service-tab h3 {
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
 
+.service-tab h2 {
+    color: #f4c613; 
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.service-tab h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+    font-weight: 600;
+    line-height: 1.4;    
+}
+
+.service-tab .tab-bg:hover h2{
+    font-weight: 400;
+}
+
+.service-tab .tab-bg:hover h3 {
+    color: #f4c613; 
+}
+.service-tab p {
+    margin-bottom: 60px;
+    line-height: 2;
+}
 
 
 
