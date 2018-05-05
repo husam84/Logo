@@ -1,7 +1,22 @@
-/*===========preloader======*/
 $(window).on('load', function(){
+    /*===========preloader======*/
     $('#status').fadeOut();
     $('#preloader').delay(400).fadeOut();
+    
+    /*===========isotope filter======*/
+    
+    /*===initialize===*/
+    var $grid = $(".isotope-filter").isotope({});
+    /*===on click filter===*/
+    $(".buttons-filter").on('click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+        
+        /*===add and remove active button class===*/
+        $(".buttons-filter").find(".active").removeClass("active");
+        $(this).addClass("active");       
+    });
+    
 });
 
 $(function(){
@@ -40,6 +55,16 @@ $(function(){
     /*===========responsive tabs=====*/   
     $("#service-tabs").responsiveTabs({
         animation: 'slide'
+    });
+    
+    /*===========magnific popup=====*/  
+    $("#portfolio-wrapper").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        
+        gallery: {
+            enabled: true
+        }
     });
     
     

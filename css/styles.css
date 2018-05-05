@@ -478,11 +478,13 @@ Team section
     background: none;   
 }
 
-.owl-theme .owl-nav [class*="owl-"]:hover {
+.owl-theme .owl-nav [class*="owl-"]:hover,
+.owl-theme .owl-nav [class*="owl-"]:focus {
     background: none;
     color: #f4c613;
     -webkit-transition: color 0.1s linear;
     transition: color 0.1s linear;
+    outline: 0;
 } 
 
 /**********************************
@@ -864,15 +866,132 @@ Services Section -02 [tabs]
 }
 
 
+/**********************************
+Portfolio
+***********************************/
 
+/*styling navigation buttons */
+#portfolio-items div.col-md-3 {
+    padding: 0;
+}
 
+#portfolio-items .button-group {
+    margin-bottom: 50px;
+}
 
+#portfolio-items button,
+#portfolio-items button:hover,
+#portfolio-items button:focus {    
+    border: none;
+    background: none;
+    padding: 5px 25px;  
+    outline: 0;
+}
 
+#portfolio-items button span {
+    color: #212226;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+     -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;   
+}
 
+#portfolio-items button.active span,
+#portfolio-items button:hover span {
+    background: none;
+    border: none;
+    color: #f4c613; 
+    border-bottom: 3px solid #f4c613; 
+    padding-bottom: 5px;
+    font-weight: 800; 
+}
 
+/*img zoom*/
+.portfolio-item {
+    overflow: hidden;
+    position: relative;
+}
 
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
+.portfolio-item:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
+/*img overlay*/
+.portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(14,14,14,0.8);
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;  
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+}
 
+.portfolio-item-overlay:hover {
+    opacity: 1;
+}
 
+/*overlay details*/
+.portfolio-item-details {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
+.portfolio-item-details h3 {
+    color: #f4c613; 
+    font-weight: 600; 
+    text-transform: uppercase;
+    font-size: 1.75rem;   
+    margin: 0 auto 10px;
+    padding: 0;
+    -webkit-transform: translateY(-30%);
+    transform: translateY(-30%);
+   -webkit-transition: transform 0.4s;
+    transition: transform 0.4s; 
+}
+
+.portfolio-item-details p {
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin: 10px auto 0;
+    padding: 0;
+    -webkit-transform: translateY(30%);
+    transform: translateY(30%);
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.portfolio-item-details span {
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    border-bottom: 3px solid #f4c613; 
+    border-top: 3px solid #f4c613; 
+    padding: 3px;
+}
+
+.portfolio-item-overlay:hover h3,
+.portfolio-item-overlay:hover p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
