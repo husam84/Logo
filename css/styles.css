@@ -46,6 +46,148 @@ section {
 }
 
 /**********************************
+Buttons
+***********************************/
+
+.btn-general {
+    font-family: "Realway", sans-serif;
+    font-size: 0.8125rem;
+    border-radius: 40px;
+    margin: 0 60px;
+    padding: 12px 46px;
+    text-transform: uppercase;    
+}
+
+/*======Button home=============*/
+
+.btn-home {
+    color: #fff;
+    width: 11rem;
+    color: #f4c613;
+    border: 1px solid #f4c613;
+    font-weight: 600;
+     -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+    border-color: #f4c613;
+    background-color: #f4c613;
+    color: #fff;
+    width: 15rem;
+ }
+
+.btn-yellow {
+    color: #fff;
+    width: 11rem;
+    background-color: #f4c613;
+    border: 1px solid #f4c613;
+    font-weight: 600;
+     -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    border-color: #212226;
+    background-color: #212226;
+    color: #fff;
+    width: 15rem;
+}
+
+/**********************************
+carousel prev next buttons
+***********************************/
+.owl-theme .owl-nav[class*="owl-"]{
+    font-size: 3rem;
+    color: #212226;
+    background: none;   
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none;
+    color: #f4c613;
+    -webkit-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+    outline: 0;
+} 
+
+.owl-theme .owl-nav [class*="owl-"]:focus {
+    outline: 0;
+}
+
+/**********************************
+Content boxes
+***********************************/
+
+.content-box-lg {
+    padding: 100px 0;
+}
+
+.content-box-md {
+    padding: 80px 0;
+}
+
+/**********************************
+Headings
+***********************************/
+
+.vertical-heading h5 {
+    position: relative;
+    left: -51px;
+    top: -30px;
+    color: #f4c613;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: inline-block;
+    font-size: 1rem;
+    word-spacing: 5px;
+}
+
+.vertical-heading h2 {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    margin-left: -70px;
+    min-height: 130px;
+}
+
+.vertical-heading strong {
+    color: #f4c613;
+}
+
+.horizontal-heading {
+    margin-bottom: 80px;
+}
+
+.horizontal-heading strong {
+    color: #f4c613;
+}
+
+.horizontal-heading h2,
+.vertical-heading h2 {
+    line-height: 1.2;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.horizontal-heading h5 {
+    font-size: 1rem;
+    color: #f4c613;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.horizontal-heading h2 {
+    margin: 0;
+}
+
+/**********************************
 Home
 ***********************************/
 
@@ -143,56 +285,7 @@ Home
     margin: 8px 0 30px 0;
 }
 
-/**********************************
-Buttons
-***********************************/
 
-.btn-general {
-    font-family: "Realway", sans-serif;
-    font-size: 0.8125rem;
-    border-radius: 40px;
-    margin: 0 60px;
-    padding: 12px 46px;
-    text-transform: uppercase;    
-}
-
-/*======Button home=============*/
-
-.btn-home {
-    color: #fff;
-    width: 11rem;
-    color: #f4c613;
-    border: 1px solid #f4c613;
-    font-weight: 600;
-     -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-}
-
-.btn-home:hover,
-.btn-home:focus {
-    border-color: #f4c613;
-    background-color: #f4c613;
-    color: #fff;
-    width: 15rem;
- }
-
-.btn-yellow {
-    color: #fff;
-    width: 11rem;
-    background-color: #f4c613;
-    border: 1px solid #f4c613;
-    font-weight: 600;
-     -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-}
-
-.btn-yellow:hover,
-.btn-yellow:focus {
-    border-color: #212226;
-    background-color: #212226;
-    color: #fff;
-    width: 15rem;
-}
 /**********************************
 arrow down
 ***********************************/
@@ -219,75 +312,6 @@ arrow down
     bottom: 30px;
 }
 
-/**********************************
-Content boxes
-***********************************/
-
-.content-box-lg {
-    padding: 100px 0;
-}
-
-.content-box-md {
-    padding: 80px 0;
-}
-
-/**********************************
-Headings
-***********************************/
-
-.vertical-heading h5 {
-    position: relative;
-    left: -51px;
-    top: -30px;
-    color: #f4c613;
-    font-weight: 500;
-    text-transform: uppercase;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    display: inline-block;
-    font-size: 1rem;
-    word-spacing: 5px;
-}
-
-.vertical-heading h2 {
-    position: relative;
-    top: 5px;
-    display: inline-block;
-    margin-left: -70px;
-    min-height: 130px;
-}
-
-.vertical-heading strong {
-    color: #f4c613;
-}
-
-.horizontal-heading {
-    margin-bottom: 80px;
-}
-
-.horizontal-heading strong {
-    color: #f4c613;
-}
-
-.horizontal-heading h2,
-.vertical-heading h2 {
-    line-height: 1.2;
-    font-size: 2.8rem;
-    text-transform: capitalize;
-    font-weight: 200;
-}
-
-.horizontal-heading h5 {
-    font-size: 1rem;
-    color: #f4c613;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-.horizontal-heading h2 {
-    margin: 0;
-}
 /**********************************
 About-01
 ***********************************/
@@ -470,22 +494,6 @@ Team section
     background-color: #dd4b39;
     border: 1px solid #dd4b39;
 }
-
-/*======Team member prev next buttons=============*/
-.owl-theme .owl-nav[class*="owl-"]{
-    font-size: 3rem;
-    color: #212226;
-    background: none;   
-}
-
-.owl-theme .owl-nav [class*="owl-"]:hover,
-.owl-theme .owl-nav [class*="owl-"]:focus {
-    background: none;
-    color: #f4c613;
-    -webkit-transition: color 0.1s linear;
-    transition: color 0.1s linear;
-    outline: 0;
-} 
 
 /**********************************
 Skills
@@ -995,3 +1003,86 @@ Portfolio
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
+
+/**********************************
+Testimonial
+***********************************/
+#testimonial .content-box-lg {
+    margin: 250px auto 0;
+    background: #f4f4f4;    
+}
+
+#testimonial-slider {
+    background: #f4c613; 
+    transform: translateY(-220px);
+    -webkit-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);    
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; 
+    border: 1px solid #f4c613;
+    border-radius: 50px 0;   
+}
+
+#testimonial-slider:hover {
+    background: #212226;
+    border: 1px solid #212226;
+}
+
+.testimonial{
+    color: #fff;
+    padding: 40px 30px 0 30px;
+}
+
+/*======Testimonial slider fa icons and owl theme nav=============*/
+#testimonial .owl-theme .owl-nav [class*="owl-"] {
+    color: #fff;
+} 
+
+#testimonial .owl-theme .owl-nav [class*="owl-"]:hover {
+    color: #f4c613;
+}
+
+#testimonial .vertical-heading {
+    margin-top: 150px;
+}
+
+#testimonial-slider .fa-commenting-o {
+    font-size: 2.5rem;
+    -webkit-transition: -webkit-transform 0.4s ease-in-out;
+    transition: -webkit-transform 0.4s ease-in-out;transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; 
+}
+
+#testimonial-slider .fa-star,
+#testimonial-slider .fa-star-half-o {
+    font-size: 1.5rem;
+    -webkit-transition: -webkit-transform 0.4s ease-in-out;
+    transition: -webkit-transform 0.4s ease-in-out;transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; 
+}
+
+#testimonial-slider:hover .fa-commenting-o {
+    transform: translateX(50px);
+}
+
+#testimonial-slider:hover .fa-star,
+#testimonial-slider:hover .fa-star-half-o {
+    transform: translateX(-50px);
+}
+
+/*======Testimonial slider elements=============*/
+.testimonial h3 {
+    margin: 30px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem
+}
+
+.testimonial .col-md-12 p {
+    line-height: 2;
+    margin-bottom: 30px
+}
+
+.testimonial .author p {
+    padding: 0;
+    margin-top: 10px;
+}
+

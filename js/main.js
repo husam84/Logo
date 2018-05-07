@@ -20,8 +20,8 @@ $(window).on('load', function(){
 });
 
 $(function(){
-    /*===========Owl carousel======*/
-    $(".owl-carousel").owlCarousel({
+    /*===========Owl carousel-Team======*/
+    $("#team-right").owlCarousel({
         items: 2,
         autoplay: true,
         loop: true,
@@ -57,7 +57,7 @@ $(function(){
         animation: 'slide'
     });
     
-    /*===========magnific popup=====*/  
+    /*===========magnific popup-portfolio=====*/  
     $("#portfolio-wrapper").magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -65,8 +65,19 @@ $(function(){
         gallery: {
             enabled: true
         }
-    });
+    });    
     
+    /*===========Owl carousel-Testimonila======*/
+    $("#testimonial-slider").owlCarousel({
+        items: 1,
+        autoplay: false,
+        loop: true,
+        autoplayHoverPause: true,
+        smartSpeed: 500,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+    });   
     
 });
 
