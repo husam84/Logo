@@ -8,6 +8,7 @@ black : #000;
 grey : #212226;
 white: #fff;
 milky: #f4f4f4;
+dark-milky:    #e0e0e0;
 ======================== */
 
 /**********************************
@@ -59,7 +60,6 @@ Buttons
 }
 
 /*======Button home=============*/
-
 .btn-home {
     color: #fff;
     width: 11rem;
@@ -78,13 +78,13 @@ Buttons
     width: 15rem;
  }
 
+/*======Button yellow=============*/
 .btn-yellow {
     color: #fff;
-    width: 11rem;
     background-color: #f4c613;
     border: 1px solid #f4c613;
     font-weight: 600;
-     -webkit-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 
@@ -93,8 +93,25 @@ Buttons
     border-color: #212226;
     background-color: #212226;
     color: #fff;
-    width: 15rem;
 }
+
+/*======Button white=============*/
+.btn-white {
+    color: #212226;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    border-color: #212226;
+    background-color: #212226;
+    color: #fff;
+}
+
 
 /**********************************
 carousel prev next buttons
@@ -1004,6 +1021,22 @@ Portfolio
     transform: translateY(0);
 }
 
+/*==== styling get in touch button ====*/
+#services-02-btn-01 {
+    text-align: center;
+}
+
+#services-02 .btn-yellow {
+    width: 50%;
+    margin: 0;
+        
+}
+
+#services-02 .btn-yellow:hover {
+    width: 95%;
+    margin: 0 auto;
+}
+
 /**********************************
 Testimonial
 ***********************************/
@@ -1085,4 +1118,144 @@ Testimonial
     padding: 0;
     margin-top: 10px;
 }
+
+/**********************************
+Pricing
+***********************************/
+.pricing {
+   border: 1px solid #f4f4f4; 
+    padding: 20px;
+    background: #fff;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;    
+    -webkit-transition: background 0.4s linear, -webkit-transform 0.4s ease-in;transition: background 0.4s linear, -webkit-transform 0.4s ease-in;transition: transform 0.4s ease-in, background 0.4s linear;transition: transform 0.4s ease-in, background 0.4s linear, -webkit-transform 0.4s ease-in;
+}
+
+.pricing-black {
+    background: #212226;
+    color: #fff;
+    border: 1px solid #212226;
+}
+
+.pricing h3 {
+    color: #f4c613;
+    font-family: "Open Sans", sans-serif;
+}
+
+.pricing-black h3 {
+    color: #fff;
+}
+
+.price-hot {    
+    background: red;
+    position: absolute;
+    text-align: center;
+    width: 55%;
+    padding: 5px;    
+    right: -70px;
+    transform: rotate(45deg);
+}
+
+.price-hot span {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.price-container {
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 15px 0;
+    padding: 15px 0;
+    position: relative;
+}
+
+.price-dollar {
+    font-size: 1.2rem;   
+    font-weight: 100;
+    position: absolute;
+    top: 0;         
+}
+
+.price-number {
+    font-size: 3.5rem; 
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: -10px;
+    left: 30px;
+}
+
+.price-month {    
+    font-size: 0.8rem;  
+    position: absolute;
+    left: 35px;
+}
+
+.pricing ul {
+    list-style: none;
+}
+
+.pricing ul li {
+    padding: 10px 0;
+}
+
+.pricing ul i {
+    margin-right: 15px;
+    color: green;
+    font-size: 1.2rem;
+}
+
+.pricing-black ul i {
+    color: #fff;
+}
+
+/*======Hover=============*/
+.pricing:hover {
+    color: #fff;
+    background: #f4c613;
+    border: 1px solid #f4c613;
+    transform: scale(1.1);
+}
+
+.pricing:hover h3 {
+    color: #fff;
+}
+
+.pricing:hover ul i {
+    color: #fff;
+}
+
+/*======buttons=============*/
+.price-button .btn {
+    margin: 0 auto;
+     -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    width: 12rem;
+    margin: 20px 0;
+}
+
+.price-button .btn:hover {
+    width: 90%;    
+}
+
+.pricing:hover .btn-yellow {
+    background: #fff;
+    color: #212226;
+     -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.pricing:hover .btn-yellow:hover {
+    color: #fff;
+    background: #212226;
+}
+
+
+
+
+
 
