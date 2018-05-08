@@ -176,6 +176,14 @@ Headings
     color: #f4c613;
 }
 
+/*======Vertical heading white=============*/
+.vertical-heading-white h5,
+.vertical-heading-white h2,
+.vertical-heading-white strong,
+.vertical-heading-white {
+    color: #fff;
+}
+
 .horizontal-heading {
     margin-bottom: 80px;
 }
@@ -596,13 +604,22 @@ A lot of modifications were made
 
 /* The actual timeline (the vertical ruler) */
 #timeline {
-   background-color: #f4f4f4;
+   background: url(../img/history/history-background-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;      
 }
+
+#timeline .content-box-lg {
+    background: rgba(0,0,0,0.2);
+}
+
 #timeline-tree {
     position: relative;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-top: 40px;
+    margin-top: 40px;    
  }
 
 .timeline-container h2,
@@ -654,7 +671,7 @@ A lot of modifications were made
 .timeline-container {
     padding: 20px 20px;
     position: relative;
-    background-color: #212226;
+    background: url(../img/history/history-background.jpg);
     width: 50%;
     margin-bottom: 30px;
     transition: all 0.4s ease-in-out; 
@@ -1154,8 +1171,10 @@ Pricing
     text-align: center;
     width: 55%;
     padding: 5px;    
-    right: -70px;
+    right: -65px;
     transform: rotate(45deg);
+    -webkit-box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 .price-hot span {
@@ -1253,6 +1272,71 @@ Pricing
     color: #fff;
     background: #212226;
 }
+
+
+/**********************************
+Stats section
+***********************************/
+#stats {
+    background: url(../img/stats/stats-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+#stats .content-box-md {
+    background: rgba(0,0,0,0.6);
+}
+
+#stats .vertical-heading {
+    margin-bottom: 60px;
+}
+
+.stats-item {
+    background: rgba(61, 68, 68, 0.6);
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+.stats-item h3,
+.stats-item p {
+    color: #fff;
+}
+
+.stats-item i {
+    color: #f4c613;
+    font-size: 3rem;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.stats-item h3 {
+    font-size: 2.5rem;
+    margin: 10px auto;
+}
+
+/*======stats hover=============*/
+.stats-item:hover {
+    background: #f4c613;
+}
+
+.stats-item:hover i {
+    color: #212226;
+    transform: translateY(-20px);
+}
+
+
+
+
+
+
+
 
 
 
