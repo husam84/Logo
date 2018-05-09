@@ -575,11 +575,12 @@ Statement
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;  
+    background-size: cover; 
 }
 
 #statement .content-box-lg {
     background: rgba(0,0,0,0.4);
+    
 }
 
 #tech-statement h3 {
@@ -597,6 +598,13 @@ Statement
 }
 
 /**********************************
+White BG
+***********************************/
+.white-bg {
+    height: 120px;
+}
+
+/**********************************
 History timeline
 Credit: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline
 A lot of modifications were made
@@ -608,7 +616,7 @@ A lot of modifications were made
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;      
+    background-size: cover;  
 }
 
 #timeline .content-box-lg {
@@ -1331,8 +1339,26 @@ Stats section
     transform: translateY(-20px);
 }
 
+/**********************************
+Clients
+***********************************/
+.clients-list {
+    text-align: center;
+    height: 100px;
+    background: #f4f4f4;
+}
 
+.client {
+    line-height: 100px; 
+    padding: 0 25px;    
+}
 
+#clients .client img {
+    min-width: 50px;
+    max-width: 150px;
+    margin: 0 30px;
+    display: inline-block; 
+}
 
 
 

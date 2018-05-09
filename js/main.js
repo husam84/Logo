@@ -81,9 +81,21 @@ $(function(){
     
     /*===========Counter======*/
     $('.counter').counterUp({
-                delay: 10,
-                time: 3000
-            });
+        delay: 10,
+        time: 3000
+    });
+    
+    /*===========clients======*/
+    $(".clients-list").owlCarousel({
+        items: 4,
+        autoplay: true,
+        loop: true,
+        autoplayHoverPause: true,
+        smartSpeed: 500,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+    });   
     
 });
 
