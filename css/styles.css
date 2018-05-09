@@ -1147,6 +1147,13 @@ Testimonial
 /**********************************
 Pricing
 ***********************************/
+@media only screen and (min-width: 1000px) {
+    .pricing-container .row {
+        display: flex;
+        align-items: center;  
+    }
+}   
+
 .pricing {
    border: 1px solid #f4f4f4; 
     padding: 20px;
@@ -1155,7 +1162,9 @@ Pricing
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     position: relative;
     overflow: hidden;    
-    -webkit-transition: background 0.4s linear, -webkit-transform 0.4s ease-in;transition: background 0.4s linear, -webkit-transform 0.4s ease-in;transition: transform 0.4s ease-in, background 0.4s linear;transition: transform 0.4s ease-in, background 0.4s linear, -webkit-transform 0.4s ease-in;
+    -webkit-transition: background 0.4s linear, -webkit-transform 0.4s ease-in;transition: background 0.4s linear, -webkit-transform 0.4s ease-in;
+    transition: transform 0.4s ease-in, background 0.4s linear;
+    transition: transform 0.4s ease-in, background 0.4s linear, -webkit-transform 0.4s ease-in;
 }
 
 .pricing-black {
@@ -1167,6 +1176,7 @@ Pricing
 .pricing h3 {
     color: #f4c613;
     font-family: "Open Sans", sans-serif;
+    margin-bottom: 30px;
 }
 
 .pricing-black h3 {
@@ -1345,6 +1355,11 @@ Clients
 .clients-list {
     text-align: center;
     height: 100px;
+    transition: all 0.4s linear;
+    margin-bottom: 50px;
+}
+
+.clients-list:hover {
     background: #f4f4f4;
 }
 
@@ -1360,12 +1375,85 @@ Clients
     display: inline-block; 
 }
 
+/**********************************
+Blog
+***********************************/
+#blog {
+    background: #f4f4f4;
+}
 
+#blog .vertical-heading {
+    margin-bottom: 20px;
+}
 
+.blog-post {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
 
+.blog-post h4,
+.blog-post a {
+    color: #f4c613;
+}
 
+.blog-post p {
+    margin: 15px auto 25px;
+    line-height: 2;
+}
 
+.blog-post a {
+    text-decoration: none;    
+    font-size: 0.9rem;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
 
+.blog-post i {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.blog-post-info {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #f4f4f4;
+}
+
+.blog-post-info img {
+    margin-right: 10px; 
+}
+
+.blog-btn {
+    margin: 30px 0 0 0;
+    text-align: center;    
+}
+
+.blog-btn .btn {
+    margin: 0 auto;
+    width: 13rem;
+    transition: all 0.4s linear;
+}
+/*======blog hover=============*/
+.blog-post:hover {
+    background: #e0e0e0;   
+}
+
+.blog-post a:hover {
+    color: #212226;
+}
+
+.blog-post a:hover i {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    color: #f4c613;
+}
+
+.blog-btn .btn:hover {
+    width: 90%;
+}
 
 
 
