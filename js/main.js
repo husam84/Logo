@@ -17,6 +17,42 @@ $(window).on('load', function(){
         $(this).addClass("active");       
     });
     
+    /*===========Google maps======*/
+    function initMap(){
+        var uluru = {lat: 51.508039, lng: -0.128069};
+        var contentString = 'Trafalgar Square, London WC2N 5DN';
+        
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: uluru
+        });
+        
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          animation: google.maps.Animation.BOUNCE      
+        });
+        
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+        
+        marker.addListener('mouseover', function(){
+            
+            if (marker.getAnimation() !== null) {
+                marker.setAnimation(null);
+            } else {
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+            } 
+        });
+        
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);        
+            
+        }); 
+    }
+    
+    initMap();    
 });
 
 $(function(){
