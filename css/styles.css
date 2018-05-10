@@ -1589,12 +1589,48 @@ Google Maps
     height: 600px;
 }
 
+/**********************************
+Footer
+***********************************/
+.footer {
+    background: #212226;
+    color: #fff;
+    padding: 30px 0;
+    position: relative;
+}
 
+.footer p {
+    text-align: center;
+    margin: 0;
+}
 
+.footer i {
+    margin: 0 5px;
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
 
+.footer span {
+    color: #f4c613; 
+}
 
+.fa-heart {
+    color: red;
+}
 
+.fa-coffee {
+   color: chocolate;
+}
 
+@media only screen and (min-width: 960px) {
+    .footer p {
+        display: inline-block;
+        font-size: 1rem;
+        text-align: left;
+    }
 
-
-
+    .footer p:nth-child(2) {
+        position: absolute;
+        right: 200px;
+    }
+}
