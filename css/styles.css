@@ -60,17 +60,18 @@ Buttons
     border-radius: 40px;
     margin: 0 60px;
     padding: 12px 46px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 /*======Button home=============*/
+
 .btn-home {
     color: #fff;
     width: 11rem;
     color: #f4c613;
     border: 1px solid #f4c613;
     font-weight: 600;
-     -webkit-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 
@@ -80,9 +81,10 @@ Buttons
     background-color: #f4c613;
     color: #fff;
     width: 15rem;
- }
+}
 
 /*======Button yellow=============*/
+
 .btn-yellow {
     color: #fff;
     background-color: #f4c613;
@@ -100,6 +102,7 @@ Buttons
 }
 
 /*======Button white=============*/
+
 .btn-white {
     color: #212226;
     background-color: #fff;
@@ -120,10 +123,11 @@ Buttons
 /**********************************
 carousel prev next buttons
 ***********************************/
-.owl-theme .owl-nav[class*="owl-"]{
+
+.owl-theme .owl-nav[class*="owl-"] {
     font-size: 3rem;
     color: #212226;
-    background: none;   
+    background: none;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
@@ -132,7 +136,7 @@ carousel prev next buttons
     -webkit-transition: color 0.1s linear;
     transition: color 0.1s linear;
     outline: 0;
-} 
+}
 
 .owl-theme .owl-nav [class*="owl-"]:focus {
     outline: 0;
@@ -144,6 +148,7 @@ Content boxes
 
 .content-box-lg {
     padding: 100px 0;
+   
 }
 
 .content-box-md {
@@ -181,6 +186,7 @@ Headings
 }
 
 /*======Vertical heading white=============*/
+
 .vertical-heading-white h5,
 .vertical-heading-white h2,
 .vertical-heading-white strong,
@@ -219,6 +225,7 @@ Headings
 /**********************************
 Social Icons
 ***********************************/
+
 .social-list {
     margin: 10px auto;
     display: inline-block;
@@ -241,35 +248,37 @@ Social Icons
     background-color: transparent;
     display: inline-block;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     font-weight: bold;
 }
-.social-list li:nth-child(1) a{
+
+.social-list li:nth-child(1) a {
     color: #3b5998;
 }
 
-.social-list li:nth-child(2) a{
+.social-list li:nth-child(2) a {
     color: #00aced;
 }
 
-.social-list li:nth-child(3) a{
+.social-list li:nth-child(3) a {
     color: #dd4b39;
 }
 
-.social-list li:nth-child(1){
+.social-list li:nth-child(1) {
     border: 1px solid #3b5998;
 }
 
-.social-list li:nth-child(2){
+.social-list li:nth-child(2) {
     border: 1px solid #00aced;
 }
 
-.social-list li:nth-child(3){
+.social-list li:nth-child(3) {
     border: 1px solid #dd4b39;
 }
 
 /*======social icons hover and smooth transition=============*/
-.social-list li:hover {    
+
+.social-list li:hover {
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
@@ -509,9 +518,10 @@ About-02
 /**********************************
 Team section
 ***********************************/
+
 .team-member {
     margin: 10px;
-    position: relative;   
+    position: relative;
 }
 
 /*======Team member overlay=============*/
@@ -571,25 +581,27 @@ Team section
 /**********************************
 Skills
 ***********************************/
+
 .skill {
     margin-bottom: 25px;
 }
+
 .skill h4 {
     font-weight: normal;
     line-height: 60px;
-    margin: 0;    
+    margin: 0;
 }
 
 .progress {
     height: 25px;
     border-radius: 0;
-    background-color: #efefef;    
+    background-color: #efefef;
     overflow: visible
 }
 
 
 .progress-bar {
-    background-color: #f4c613;   
+    background-color: #f4c613;
     position: relative;
 }
 
@@ -605,6 +617,7 @@ Skills
 }
 
 /*======small triangle=============*/
+
 .progress-bar span:before {
     content: "";
     border-top: 8px solid #212226;
@@ -618,17 +631,18 @@ Skills
 /**********************************
 Statement
 ***********************************/
+
 #statement {
     background: url(../img/tech/tech-quote.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover; 
+    background-size: cover;
 }
 
 #statement .content-box-lg {
-    background: rgba(0,0,0,0.4);
-    
+    background: rgba(0, 0, 0, 0.4);
+
 }
 
 #tech-statement h3 {
@@ -638,7 +652,7 @@ Statement
 }
 
 #tech-statement p {
-    color: #f4c613; 
+    color: #f4c613;
     font-size: 1.2rem;
     font-weight: 600;
     font-family: "Raleway", sans-serif;
@@ -648,6 +662,7 @@ Statement
 /**********************************
 White BG
 ***********************************/
+
 .white-bg {
     height: 120px;
 }
@@ -659,24 +674,25 @@ A lot of modifications were made
 ***********************************/
 
 /* The actual timeline (the vertical ruler) */
+
 #timeline {
-   background: url(../img/history/history-background-2.jpg);
+    background: url(../img/history/history-background-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;  
+    background-size: cover;
 }
 
 #timeline .content-box-lg {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 #timeline-tree {
     position: relative;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-top: 40px;    
- }
+    margin-top: 40px;
+}
 
 .timeline-container h2,
 .timeline-container p {
@@ -689,7 +705,7 @@ A lot of modifications were made
     color: #fff;
     font-size: 2rem;
     -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;     
+    transition: all 0.4s ease-in-out;
 }
 
 .timeline-container:hover i {
@@ -698,13 +714,13 @@ A lot of modifications were made
 }
 
 .timeline-container hr {
-     border: none;
+    border: none;
     background-color: #f4c613;
     width: 60px;
     height: 5px;
     margin: 15px auto;
     -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out; 
+    transition: width 0.4s ease-in-out;
 }
 
 .timeline-container:hover hr {
@@ -713,34 +729,37 @@ A lot of modifications were made
 }
 
 /* The actual timeline (the vertical ruler) */
+
 #timeline-tree::after {
     content: '';
     position: absolute;
     width: 10px;
-    background-color: #f4c613; 
+    background-color: #f4c613;
     top: 0;
     bottom: 0;
     left: 50%;
 }
 
 /* Container around content */
+
 .timeline-container {
     padding: 20px 20px;
     position: relative;
     background: url(../img/history/history-background.jpg);
     width: 50%;
     margin-bottom: 30px;
-    transition: all 0.4s ease-in-out; 
+    transition: all 0.4s ease-in-out;
     -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     opacity: 0;
 }
 
 .timeline-container:hover {
-    background: #f4c613; 
+    background: #f4c613;
 }
 
 /* The circles on the timeline */
+
 .timeline-container::after {
     content: '';
     position: absolute;
@@ -748,23 +767,26 @@ A lot of modifications were made
     height: 30px;
     right: -20px;
     background-color: white;
-    border: 4px solid #f4c613; 
+    border: 4px solid #f4c613;
     top: 17px;
     border-radius: 50%;
-    z-index: 1;    
+    z-index: 1;
 }
 
 /* Place the container to the left */
+
 .timeline-left {
     left: 0;
 }
 
 /* Place the container to the right */
+
 .timeline-right {
     left: 50%;
- }
+}
 
 /* Add arrows to the left container (pointing right) */
+
 .timeline-left::before {
     content: " ";
     height: 0;
@@ -779,6 +801,7 @@ A lot of modifications were made
 }
 
 /* Add arrows to the right container (pointing left) */
+
 .timeline-right::before {
     content: " ";
     height: 0;
@@ -789,57 +812,63 @@ A lot of modifications were made
     left: 35px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #fff; transparent transparent;
+    border-color: transparent #fff;
+    transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
+
 .timeline-right::after {
     left: -10px;
 }
 
 /* The actual content */
+
 .timeline-content {
     padding: 20px 30px;
     position: relative;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  #timeline-tree::after {
-    left: 25px;
-  }
-  
-  /* Full-width containers */
-  .timeline-container {
-       width: 100%;
-       padding-left: 30px;
-       padding-right: 5px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .timeline-container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
 
-  /* Make sure all circles are at the same spot */
-  .timeline-left::after, .timeline-right::after {
-    left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .timeline-right {
-    left: 0%;
-  }
+@media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    #timeline-tree::after {
+        left: 25px;
+    }
+
+    /* Full-width containers */
+    .timeline-container {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline-container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .timeline-left::after,
+    .timeline-right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .timeline-right {
+        left: 0%;
+    }
 }
 
 /**********************************
 Services Section -01
 ***********************************/
-#services-01 img{
+
+#services-01 img {
     margin: 60px 10px 60px 0;
 }
 
@@ -850,25 +879,25 @@ Services Section -01
 .service .icon {
     font-size: 3rem;
     -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;    
+    transition: all 0.4s linear;
 }
 
 .service:hover .icon {
-    color: #f4c613; 
+    color: #f4c613;
     transform: translateX(-20px);
 }
 
 .service h5 {
     font-size: 0.75rem;
     text-transform: uppercase;
-    color: #f4c613; 
+    color: #f4c613;
     -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;  
-    font-weight: bold;  
+    transition: all 0.4s linear;
+    font-weight: bold;
 }
 
 .service:hover h5 {
-    color: #212226;  
+    color: #212226;
 }
 
 .service h4 {
@@ -883,17 +912,18 @@ Services Section -01
 /**********************************
 Services Section -02 [tabs]
 ***********************************/
+
 #services-02 {
     background-color: #f4f4f4;
 }
 
-#service-tabs ul{
-    margin-bottom: 50px;    
+#service-tabs ul {
+    margin-bottom: 50px;
 }
 
 #service-tabs li {
     padding: 5px 35px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 #service-tabs li a {
@@ -904,13 +934,13 @@ Services Section -02 [tabs]
     font-size: 0.8rem;
     border-bottom: none;
     -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear; 
+    transition: all 0.2s linear;
 }
 
 #service-tabs li a:hover,
-#service-tabs li.r-tabs-state-active a{
-    color: #f4c613; 
-    border-bottom: 3px solid #f4c613; 
+#service-tabs li.r-tabs-state-active a {
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
     padding-bottom: 5px;
     font-weight: 800;
 }
@@ -925,7 +955,7 @@ Services Section -02 [tabs]
 .service-tab .tab-bg {
     background: #fff;
     padding: 20px 30px;
-    height: 455px;   
+    height: 455px;
     -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
@@ -937,7 +967,7 @@ Services Section -02 [tabs]
 }
 
 .service-tab h2 {
-    color: #f4c613; 
+    color: #f4c613;
     font-size: 3rem;
     font-weight: 200;
     margin-bottom: 40px;
@@ -948,16 +978,17 @@ Services Section -02 [tabs]
     font-size: 1.5rem;
     margin-bottom: 60px;
     font-weight: 600;
-    line-height: 1.4;    
+    line-height: 1.4;
 }
 
-.service-tab .tab-bg:hover h2{
+.service-tab .tab-bg:hover h2 {
     font-weight: 400;
 }
 
 .service-tab .tab-bg:hover h3 {
-    color: #f4c613; 
+    color: #f4c613;
 }
+
 .service-tab p {
     margin-bottom: 60px;
     line-height: 2;
@@ -969,6 +1000,7 @@ Portfolio
 ***********************************/
 
 /*styling navigation buttons */
+
 #portfolio-items div.col-md-3 {
     padding: 0;
 }
@@ -979,10 +1011,10 @@ Portfolio
 
 #portfolio-items button,
 #portfolio-items button:hover,
-#portfolio-items button:focus {    
+#portfolio-items button:focus {
     border: none;
     background: none;
-    padding: 5px 25px;  
+    padding: 5px 25px;
     outline: 0;
 }
 
@@ -993,21 +1025,22 @@ Portfolio
     font-family: "Raleway", sans-serif;
     font-size: 0.8rem;
     text-transform: uppercase;
-     -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 
 #portfolio-items button.active span,
 #portfolio-items button:hover span {
     background: none;
     border: none;
-    color: #f4c613; 
-    border-bottom: 3px solid #f4c613; 
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
     padding-bottom: 5px;
-    font-weight: 800; 
+    font-weight: 800;
 }
 
 /*img zoom*/
+
 .portfolio-item {
     overflow: hidden;
     position: relative;
@@ -1026,15 +1059,16 @@ Portfolio
 }
 
 /*img overlay*/
+
 .portfolio-item-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(14,14,14,0.8);
+    background: rgba(14, 14, 14, 0.8);
     cursor: -webkit-zoom-in;
-    cursor: zoom-in;  
+    cursor: zoom-in;
     opacity: 0;
     -webkit-transition: opacity 0.4s ease;
     transition: opacity 0.4s ease;
@@ -1045,6 +1079,7 @@ Portfolio
 }
 
 /*overlay details*/
+
 .portfolio-item-details {
     width: 100%;
     position: absolute;
@@ -1055,16 +1090,16 @@ Portfolio
 }
 
 .portfolio-item-details h3 {
-    color: #f4c613; 
-    font-weight: 600; 
+    color: #f4c613;
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 1.75rem;   
+    font-size: 1.75rem;
     margin: 0 auto 10px;
     padding: 0;
     -webkit-transform: translateY(-30%);
     transform: translateY(-30%);
-   -webkit-transition: transform 0.4s;
-    transition: transform 0.4s; 
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
 }
 
 .portfolio-item-details p {
@@ -1083,8 +1118,8 @@ Portfolio
     display: inline-block;
     width: 50px;
     height: 10px;
-    border-bottom: 3px solid #f4c613; 
-    border-top: 3px solid #f4c613; 
+    border-bottom: 3px solid #f4c613;
+    border-top: 3px solid #f4c613;
     padding: 3px;
 }
 
@@ -1095,6 +1130,7 @@ Portfolio
 }
 
 /*==== styling get in touch button ====*/
+
 #services-02-btn-01 {
     text-align: center;
 }
@@ -1102,7 +1138,7 @@ Portfolio
 #services-02 .btn-yellow {
     width: 50%;
     margin: 0;
-        
+
 }
 
 #services-02 .btn-yellow:hover {
@@ -1113,19 +1149,21 @@ Portfolio
 /**********************************
 Testimonial
 ***********************************/
+
 #testimonial .content-box-lg {
     margin: 250px auto 0;
-    background: #f4f4f4;    
+    background: #f4f4f4;
 }
 
 #testimonial-slider {
-    background: #f4c613; 
+    background: #f4c613;
     transform: translateY(-220px);
-    -webkit-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);    
+    -webkit-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out; 
+    transition: all 0.4s ease-in-out;
     border: 1px solid #f4c613;
-    border-radius: 50px 0;   
+    border-radius: 50px 0;
 }
 
 #testimonial-slider:hover {
@@ -1133,15 +1171,16 @@ Testimonial
     border: 1px solid #212226;
 }
 
-.testimonial{
+.testimonial {
     color: #fff;
     padding: 40px 30px 0 30px;
 }
 
 /*======Testimonial slider fa icons and owl theme nav=============*/
+
 #testimonial .owl-theme .owl-nav [class*="owl-"] {
     color: #fff;
-} 
+}
 
 #testimonial .owl-theme .owl-nav [class*="owl-"]:hover {
     color: #f4c613;
@@ -1154,16 +1193,18 @@ Testimonial
 #testimonial-slider .fa-commenting-o {
     font-size: 2.5rem;
     -webkit-transition: -webkit-transform 0.4s ease-in-out;
-    transition: -webkit-transform 0.4s ease-in-out;transition: transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; 
+    transition: -webkit-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 #testimonial-slider .fa-star,
 #testimonial-slider .fa-star-half-o {
     font-size: 1.5rem;
     -webkit-transition: -webkit-transform 0.4s ease-in-out;
-    transition: -webkit-transform 0.4s ease-in-out;transition: transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; 
+    transition: -webkit-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 #testimonial-slider:hover .fa-commenting-o {
@@ -1176,6 +1217,7 @@ Testimonial
 }
 
 /*======Testimonial slider elements=============*/
+
 .testimonial h3 {
     margin: 30px 0;
     font-family: "Open Sans", sans-serif;
@@ -1195,22 +1237,24 @@ Testimonial
 /**********************************
 Pricing
 ***********************************/
+
 @media only screen and (min-width: 1000px) {
     .pricing-container .row {
         display: flex;
-        align-items: center;  
+        align-items: center;
     }
-}   
+}
 
 .pricing {
-   border: 1px solid #f4f4f4; 
+    border: 1px solid #f4f4f4;
     padding: 20px;
     background: #fff;
     -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     position: relative;
-    overflow: hidden;    
-    -webkit-transition: background 0.4s linear, -webkit-transform 0.4s ease-in;transition: background 0.4s linear, -webkit-transform 0.4s ease-in;
+    overflow: hidden;
+    -webkit-transition: background 0.4s linear, -webkit-transform 0.4s ease-in;
+    transition: background 0.4s linear, -webkit-transform 0.4s ease-in;
     transition: transform 0.4s ease-in, background 0.4s linear;
     transition: transform 0.4s ease-in, background 0.4s linear, -webkit-transform 0.4s ease-in;
 }
@@ -1221,16 +1265,16 @@ Pricing
     margin-bottom: 30px;
 }
 
-.price-hot {    
+.price-hot {
     background: red;
     position: absolute;
     text-align: center;
     width: 55%;
-    padding: 5px;    
+    padding: 5px;
     right: -65px;
     transform: rotate(45deg);
     -webkit-box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.7);
-    box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.7);    
+    box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 .price-hot span {
@@ -1249,25 +1293,24 @@ Pricing
 }
 
 .price-dollar {
-    font-size: 1.2rem;   
+    font-size: 1.2rem;
     font-weight: 100;
     position: absolute;
-    top: 0;         
+    top: 0;
 }
 
 .price-number {
-    font-size: 3.5rem; 
+    font-size: 3.5rem;
     font-weight: 100;
     color: #f4c613;
     font-family: "Raleway", sans-serif;
     position: absolute;
     top: -10px;
     left: 30px;
-    
 }
 
-.price-month {    
-    font-size: 0.8rem;  
+.price-month {
+    font-size: 0.8rem;
     position: absolute;
     left: 35px;
     top: 60px;
@@ -1284,6 +1327,7 @@ Pricing
 }
 
 /*======pricing black======*/
+
 .pricing-black {
     background: #212226;
     border: 1px solid #212226;
@@ -1295,7 +1339,9 @@ Pricing
 .pricing-black .price-number {
     color: #fff;
 }
+
 /*======Hover=============*/
+
 .pricing:hover {
     color: #fff;
     background: #f4c613;
@@ -1307,6 +1353,7 @@ Pricing
 .pricing:hover .price-number {
     color: #fff;
 }
+
 .pricing:hover h3 {
     color: #fff;
 }
@@ -1316,22 +1363,23 @@ Pricing
 }
 
 /*======buttons=============*/
+
 .price-button .btn {
     margin: 0 auto;
-     -webkit-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
     width: 12rem;
     margin: 20px 0;
 }
 
 .price-button .btn:hover {
-    width: 90%;    
+    width: 90%;
 }
 
 .pricing:hover .btn-yellow {
     background: #fff;
     color: #212226;
-     -webkit-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 
@@ -1341,9 +1389,10 @@ Pricing
 }
 
 /*======payments=============*/
+
 .payments {
     margin: 50px auto 0;
-    padding: 5px; 
+    padding: 5px;
 }
 
 .payments img {
@@ -1355,16 +1404,17 @@ Pricing
 /**********************************
 Stats section
 ***********************************/
+
 #stats {
     background: url(../img/stats/stats-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;  
+    background-size: cover;
 }
 
 #stats .content-box-md {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 #stats .vertical-heading {
@@ -1400,6 +1450,7 @@ Stats section
 }
 
 /*======stats hover=============*/
+
 .stats-item:hover {
     background: #f4c613;
 }
@@ -1412,6 +1463,7 @@ Stats section
 /**********************************
 Clients
 ***********************************/
+
 .clients-list {
     text-align: center;
     height: 100px;
@@ -1424,20 +1476,21 @@ Clients
 }
 
 .client {
-    line-height: 100px; 
-    padding: 0 25px;    
+    line-height: 100px;
+    padding: 0 25px;
 }
 
 #clients .client img {
     min-width: 50px;
     max-width: 150px;
     margin: 0 30px;
-    display: inline-block; 
+    display: inline-block;
 }
 
 /**********************************
 Blog
 ***********************************/
+
 #blog {
     background: #f4f4f4;
 }
@@ -1465,7 +1518,7 @@ Blog
 }
 
 .blog-post a {
-    text-decoration: none;    
+    text-decoration: none;
     font-size: 0.9rem;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
@@ -1483,12 +1536,12 @@ Blog
 }
 
 .blog-post-info img {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .blog-btn {
     margin: 30px 0 0 0;
-    text-align: center;    
+    text-align: center;
 }
 
 .blog-btn .btn {
@@ -1498,8 +1551,9 @@ Blog
 }
 
 /*======blog hover=============*/
+
 .blog-post:hover {
-    background: #e0e0e0;   
+    background: #e0e0e0;
 }
 
 .blog-post a:hover {
@@ -1521,6 +1575,7 @@ Contact
 ***********************************/
 
 /*======left side=============*/
+
 .office-details {
     margin: 10px auto;
     padding: 0;
@@ -1542,7 +1597,7 @@ Contact
     display: inline-block;
     font-family: "Open Sans", sans-serif;
     font-size: 0.9rem
-} 
+}
 
 .office .social-list {
     text-align: center;
@@ -1551,8 +1606,9 @@ Contact
 
 
 /*======form=============*/
+
 .contact-form {
-    border: 1px solid #f4f4f4; 
+    border: 1px solid #f4f4f4;
     padding: 20px;
     -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
@@ -1561,30 +1617,32 @@ Contact
 .contact-form p {
     margin-bottom: 20px;
 }
+
 .contact-form textarea {
     min-height: 200px;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border: 2px solid #f4c613;    
+    border: 2px solid #f4c613;
 }
 
 .contact-form .btn {
     margin: 0 auto;
-     -webkit-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
-    width: 12rem;    
+    width: 12rem;
 }
 
 .contact-form .btn:hover {
-    width: 100%;   
+    width: 100%;
 }
 
 
 /**********************************
 Google Maps
 ***********************************/
+
 #map {
     height: 600px;
 }
@@ -1592,6 +1650,7 @@ Google Maps
 /**********************************
 Footer
 ***********************************/
+
 .footer {
     background: #212226;
     color: #fff;
@@ -1611,7 +1670,7 @@ Footer
 }
 
 .footer span {
-    color: #f4c613; 
+    color: #f4c613;
 }
 
 .fa-heart {
@@ -1619,7 +1678,7 @@ Footer
 }
 
 .fa-coffee {
-   color: chocolate;
+    color: chocolate;
 }
 
 @media only screen and (min-width: 960px) {
@@ -1634,3 +1693,89 @@ Footer
         right: 200px;
     }
 }
+
+/**********************************
+Nav
+***********************************/
+.navbar {    
+    padding: 35px 0; 
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;  
+}
+
+.nav-wrapper {
+    padding: 0 75px;
+}
+
+ul.nav li {
+   padding: 15px;
+}
+
+ul.nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    padding: 0;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;     
+}
+
+ul.nav li a:hover{
+    background: none;
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+}
+
+ul.nav li a:focus {
+   background: none; 
+}
+/*======White nav============*/
+.navbar-fixed-white {
+    padding: 15px 0;
+    background: #fff;
+    z-index: 2;
+    -webkit-box-shadow: 0 8px 8px -8px #999;
+    box-shadow: 0 8px 8px -8px #999;
+}
+
+.navbar-fixed-white ul.nav li a {
+    color: #212226;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: color 0.2s linear;
+    transition: color 0.2s linear; 
+} 
+
+.navbar-fixed-white ul.nav li a:hover{
+    border-bottom: 3px solid #f4c613;
+    color: #f4c613;
+}
+
+
+/*======Scroll spy============*/
+.navbar-fixed-white ul.nav li.active a {
+    border-bottom: 3px solid #f4c613;
+    color: #f4c613;
+}
+
+
+/*======back to top button============*/
+.btn-back-to-top {
+    position: fixed;
+    right:20px;
+    bottom: 27px;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    display: none;
+}
+
+
+
+
+
+
+
+
+

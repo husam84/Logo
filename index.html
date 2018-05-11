@@ -34,13 +34,45 @@
     <link rel="shortcut icon" href="img/favicon/favicon.ico">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
 
     <!-- preloader-->
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
-
+    
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="nav-wrapper">
+                    <div class="navbar-header">
+                        <!-- Logo -->
+                        <a href="#home" class="navbar-brand smooth-scroll">
+                            <img src="img/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    
+                    <!-- main menu -->
+                    <container>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#about">About</a></li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#portfolio">Portfolio</a></li>
+                                <li><a class="smooth-scroll" href="#pricing">Pricing</a></li>
+                                <li><a class="smooth-scroll" href="#blog">Blog</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </container>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- \header -->
+    
     <!-- Home -->
     <section id="home">
         <!--  background video [add loop after finishing]-->
@@ -71,7 +103,7 @@
         </div>
 
         <!-- Arrow down  -->
-        <a href="#about" id="arrow-down">
+        <a href="#about" id="arrow-down" class="smooth-scroll">
             <i class="fa fa-angle-double-down"></i>
         </a>
     </section>
@@ -1564,12 +1596,16 @@
         <div class="container">
             <div class="row">                
                     <p>
-                        Built with lots of <i class="fa fa-heart"></i> <span>&</span> <i class="fa fa-coffee"></i>
-                    </p> 
-                    
+                        Made with lots of <i class="fa fa-heart"></i> <span>&</span> <i class="fa fa-coffee"></i>
+                    </p>                     
                     <p>Copyright <span>&copy;</span> 2018 All Rights Reserved</p>                
             </div>
         </div>
+        
+        <!--Back to top button-->
+        <a href="#home" id="back-to-top" class="btn btn-yellow btn-sm btn-back-to-top smooth-scroll" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
     </footer>    
     <!--\Footer-->
 
@@ -1585,9 +1621,13 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
 <!--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTPNJdrpt-xWuLBRE7I35Z0VttEkDE-eg&callback=initMap"></script>-->
+   
+   <!--testing map (remove later)-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIx3Eqe0LT6I0CUQPMZSnF-B7eW6c1LWc&callback=initMap"
           type="text/javascript"></script>
     <script src="js/main.js"></script>
+    
+    <script src="js/jquery.easing.1.3.js"></script>
 </body>
 
 </html>
