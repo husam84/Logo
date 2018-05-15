@@ -23,7 +23,7 @@ $(window).on('load', function(){
     });
     
     /*===========Google Maps==============================================================================*/
-    function initMap(){
+    /*function initMap(){
         var uluru = {lat: 51.508039, lng: -0.128069};
         var contentString = 'Trafalgar Square, London WC2N 5DN';
         
@@ -57,7 +57,7 @@ $(window).on('load', function(){
         }); 
     }
     
-    initMap();    
+    initMap(); */   
 });
 
 /**********************************
@@ -74,9 +74,19 @@ $(function(){
         smartSpeed: 500,
         nav: true,
         dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            
+            768: {
+               items: 2               
+            }
+        }        
     });   
     
+        
     /*===========Progress bars=================================================================*/
     $("#progress-elements").waypoint(function(){
         $(".progress-bar").each(function(){
@@ -112,7 +122,7 @@ $(function(){
         }
     });    
     
-    /*===========Owl carousel-Testimonila============================================================*/
+    /*===========Owl carousel-Testimonial============================================================*/
     $("#testimonial-slider").owlCarousel({
         items: 1,
         autoplay: false,
@@ -139,7 +149,20 @@ $(function(){
         smartSpeed: 500,
         nav: true,
         dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 2
+            },
+            
+            768: {
+               items: 3
+            },
+            
+            992 : {
+               items: 4 
+            }
+        }
     });   
     
     /*===========Nav bar==============================================================================*/
