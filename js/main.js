@@ -28,7 +28,7 @@ $(window).on('load', function(){
         var contentString = 'Trafalgar Square, London WC2N 5DN';
         
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 6,
+          zoom: 8,
           center: uluru
         });
         
@@ -52,12 +52,20 @@ $(window).on('load', function(){
         });
         
         marker.addListener('click', function() {
-            infowindow.open(map, marker);        
+            infowindow.open(map, marker);  
             
-        }); 
+        }); */
+        
+        /******** center content *****/
+    
+        /* google.maps.event.addDomListener(window, 'resize', function(){
+            var center = map.getCenter();
+            google.maps.event.trigger(map, 'resize');
+            map.setCenter(center);
+        }); */
     }
     
-    initMap(); */   
+    initMap();    
 });
 
 /**********************************
@@ -155,7 +163,7 @@ $(function(){
                 items: 2
             },
             
-            768: {
+            480: {
                items: 3
             },
             

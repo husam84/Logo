@@ -536,7 +536,7 @@ Team section
     height: 100%;
     background-color: rgba(33, 34, 38, 0.8);
     opacity: 0;
-    padding: 60px 0;
+    padding: 20% 0 20%;
     -webkit-transition: opacity 0.4s linear;
     transition: opacity 0.4s linear;
 }
@@ -1458,8 +1458,7 @@ Clients
 
 #clients .client img {
     min-width: 50px;
-    max-width: 150px;
-    margin: 0 30px;
+    max-width: 150px;    
     display: inline-block;
 }
 
