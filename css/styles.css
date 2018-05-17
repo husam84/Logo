@@ -692,6 +692,7 @@ A lot of modifications were made
 #timeline-tree {
     position: relative;
     margin: 0 auto;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: 40px;
 }
@@ -750,6 +751,7 @@ A lot of modifications were made
     background: url(../img/history/history-background.jpg);
     width: 50%;
     margin-bottom: 30px;
+    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
@@ -814,8 +816,7 @@ A lot of modifications were made
     left: 35px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #fff;
-    transparent transparent;
+    border-color: transparent #fff transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -852,6 +853,7 @@ Services Section -01
 
 .service:hover .icon {
     color: #f4c613;
+    -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
 }
 
@@ -906,7 +908,8 @@ Services Section -02 [tabs]
 }
 
 #service-tabs li a:hover,
-#service-tabs li.r-tabs-state-active a {
+li.r-tabs-state-active a,
+.r-tabs-accordion-title .r-tabs-anchor:hover  {
     color: #f4c613;
     border-bottom: 3px solid #f4c613;
     padding-bottom: 5px;
@@ -1107,7 +1110,10 @@ Portfolio
     -webkit-transform: translateY(-30%);
     transform: translateY(-30%);
     -webkit-transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 .portfolio-item-details p {
@@ -1119,7 +1125,10 @@ Portfolio
     -webkit-transform: translateY(30%);
     transform: translateY(30%);
     -webkit-transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 .portfolio-item-details span {
@@ -1149,6 +1158,7 @@ Testimonial
 
 #testimonial-slider {
     background: #f4c613;
+    -webkit-transform: translateY(-220px);
     transform: translateY(-220px);
     -webkit-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
@@ -1200,11 +1210,13 @@ Testimonial
 }
 
 #testimonial-slider:hover .fa-commenting-o {
+    -webkit-transform: translateX(50px);
     transform: translateX(50px);
 }
 
 #testimonial-slider:hover .fa-star,
 #testimonial-slider:hover .fa-star-half-o {
+    -webkit-transform: translateX(-50px);
     transform: translateX(-50px);
 }
 
@@ -1257,6 +1269,7 @@ Pricing
     width: 55%;
     padding: 5px;
     right: -65px;
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.7);
     box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.7);
@@ -1433,6 +1446,7 @@ Stats section
 
 .stats-item:hover i {
     color: #212226;
+    -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
 }
 
@@ -1443,6 +1457,7 @@ Clients
 .clients-list {
     text-align: center;
     height: 100px;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
     margin-bottom: 50px;
 }
@@ -1478,7 +1493,9 @@ Blog
     background: #fff;
     padding: 20px;
     border-radius: 10px;
+    -webkit-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -1780,7 +1797,7 @@ mobile menu
 }
 
 #nav-menu li {
-    margin: 20px 0;
+    margin: 1.5% 0;
 }
 
 #nav-menu a {

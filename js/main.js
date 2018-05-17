@@ -217,7 +217,7 @@ $(function(){
     
     
     /*===========Smooth scroll==============================================================================*/
-   $("a.smooth-scroll").click(function(e){
+   $("a.smooth-scroll").not($("#mobile-nav a.smooth-scroll")).click(function(e){
        e.preventDefault();
        
        var sectionID = $(this).attr("href");
@@ -236,7 +236,7 @@ $(function(){
        
        $("html, body").animate({
            scrollTop: $(sectionID).offset().top - 50
-       }, 1300, "easeOutExpo");      
+       }, 2000, "easeOutExpo");      
          
    });
 });
