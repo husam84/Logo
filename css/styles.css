@@ -1677,6 +1677,7 @@ ul.nav li a:hover{
 ul.nav li a:focus {
    background: none; 
 }
+
 /*======White nav============*/
 .navbar-fixed-white {
     padding: 15px 0;
@@ -1723,9 +1724,99 @@ ul.nav li a:focus {
     width: initial;
 }
 
+/**********************************
+mobile menu
+***********************************/
 
+.navbar-header {
+    position: relative;
+}
 
+#mobile-menu-btn-open,
+#mobile-menu-btn-close {
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
 
+#mobile-menu-btn-open {
+    color: #f4c613; 
+    font-size: 2rem;
+    top: 5px;
+    right: 0;
+    z-index: 2;
+    
+}
 
+#mobile-menu-btn-close {
+    color: #212226; 
+    font-size: 3rem;
+    top: 18px;
+    right: 15px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
 
+#mobile-nav {
+    background: rgba(255,255,255, 0.8);
+    width: 100%;
+    height: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    overflow-y: hidden;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
 
+#nav-menu {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    margin-top: 15px;
+}
+
+#nav-menu li {
+    margin: 20px 0;
+}
+
+#nav-menu a {
+    color: #212226;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    padding: 0;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear; 
+}
+
+/*======hover============*/
+#mobile-menu-btn-open:hover,
+#mobile-menu-btn-close:hover {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#mobile-menu-btn-close:hover,
+#mobile-menu-btn-close:active {
+    color: #f4c613;     
+}
+
+#nav-menu a:hover {
+    background: none;
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+}
+
+/*======Scroll spy============*/
+#nav-menu li.active a {
+    background: none;
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+}

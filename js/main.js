@@ -62,10 +62,10 @@ $(window).on('load', function(){
             var center = map.getCenter();
             google.maps.event.trigger(map, 'resize');
             map.setCenter(center);
-        }); */
-    }
+        }); 
+    } */
     
-    initMap();    
+    /*initMap();*/    
 });
 
 /**********************************
@@ -204,6 +204,18 @@ $(function(){
        showHideNav(); 
     });
     
+    /*===========Mobile menu================================================================================*/
+    /*===open menu===*/
+    $("#mobile-menu-btn-open").click(function(){
+        $("#mobile-nav").css("height","100%");
+    });
+    
+    /*===close menu (when clicking on close button, or menu item)===*/
+    $("#mobile-menu-btn-close, #nav-menu a").click(function(){
+        $("#mobile-nav").css("height","0%");
+    });
+    
+    
     /*===========Smooth scroll==============================================================================*/
    $("a.smooth-scroll").click(function(e){
        e.preventDefault();
@@ -214,7 +226,19 @@ $(function(){
            scrollTop: $(sectionID).offset().top - 79
        }, 1300, "easeOutExpo");      
          
-   })
+   });
+    
+    /*===fixing smooth scroll top gap for mobile menu===*/
+    $("#mobile-nav a.smooth-scroll").click(function(e){
+       e.preventDefault();
+       
+       var sectionID = $(this).attr("href");
+       
+       $("html, body").animate({
+           scrollTop: $(sectionID).offset().top - 50
+       }, 1300, "easeOutExpo");      
+         
+   });
 });
 
 

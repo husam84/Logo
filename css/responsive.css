@@ -323,7 +323,7 @@ Extra small devices (portrait tablets and landscape phones) < 767px
 **************************************************************************/
 
 @media (max-width: 767px) {
-
+    
     /*======content boxes============*/
     .content-box-lg {
         padding: 60px 0;
@@ -386,7 +386,23 @@ Extra small devices (portrait tablets and landscape phones) < 767px
     .btn-home:focus {
         width: initial;
     }
-
+    
+    /*======mobile menu============*/
+    #mobile-menu-btn-open,
+    #mobile-menu-btn-close {
+        display: block;
+    }
+    
+    .navbar {
+        padding: 25px 0;
+    }
+    
+    .nav-wrapper,
+    .navbar-fixed-white {
+        padding: 0;        
+    }    
+    
+    
     /*======home============*/
     #home-heading h1 {
         font-size: 1.5rem;
