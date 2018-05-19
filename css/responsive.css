@@ -647,7 +647,8 @@ Extra small devices (portrait tablets and landscape phones) < 767px
     #contact .btn {
         width: initial;
     }
-
+    
+    
 }
 
 /*************************************************************************
@@ -685,6 +686,48 @@ Extra small devices (portrait tablets and landscape phones) < 480px
     #testimonial-slider .fa-star-half-o {
         font-size: 0.6rem;
     }
+    
+    /*======center content============*/
+    #about-right p,
+    #team-left p,
+    .tab-bg h2,
+    .tab-bg h3,
+    .tab-bg p,
+    .testimonial div.col-md-12 p,
+    #blog .vertical-heading + p,
+    .blog-post h4,
+    .blog-post h4 + p,
+    .blog-post a,
+    #contact .vertical-heading + p ,
+    .office,
+    .office i,
+    form {
+        display: block;
+        text-align: center;
+    }
+    
+    .office {
+        margin-bottom: 35px;
+    }
+    
+    .office i {
+        margin-bottom: 5px;
+    }
+    
+    .office ul.social-list {
+        margin: 0 auto;
+    }
+    
+    /*======correcting heading's margin=======*/
+    .vertical-heading,
+    #blog .vertical-heading {
+        margin-bottom: -40px;
+    } 
+    
+    .vertical-heading-white {
+        margin-bottom: 5px;
+    }
+    
 }
 
 /*************************************************************************

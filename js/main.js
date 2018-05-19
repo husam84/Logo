@@ -33,7 +33,7 @@ $(window).on('load', function () {
     
 
     /*===========Google Maps==============================================================================*/
-    /*function initMap(){
+    function initMap(){
         var uluru = {lat: 51.508039, lng: -0.128069};
         var contentString = 'Trafalgar Square, London WC2N 5DN';
         
@@ -64,18 +64,18 @@ $(window).on('load', function () {
         marker.addListener('click', function() {
             infowindow.open(map, marker);  
             
-        }); */
+        }); 
 
     /******** center content *****/
 
-    /* google.maps.event.addDomListener(window, 'resize', function(){
+    google.maps.event.addDomListener(window, 'resize', function(){
             var center = map.getCenter();
             google.maps.event.trigger(map, 'resize');
             map.setCenter(center);
         }); 
-    } */
+    } 
 
-    /*initMap();*/
+    initMap();
 });
 
 /**********************************
@@ -83,6 +83,13 @@ Document ready function
 ***********************************/
 
 $(function () {
+    /*===========Pause video on mobile screens================================================*/
+    var width = $( window ).width();
+    
+    if (width <= 767) {
+        $("#home-video-bg").removeAttr( "loop" );
+    }
+    
     /*===========Owl carousel-Team============================================================*/
     $("#team-right").owlCarousel({
         items: 2,

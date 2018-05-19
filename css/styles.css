@@ -517,6 +517,13 @@ About-02
     transition: all 0.4s ease-in-out;
 }
 
+
+.about-item:hover h3,
+.about-item:hover p {
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
 /**********************************
 Team section
 ***********************************/
