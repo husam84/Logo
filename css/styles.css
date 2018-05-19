@@ -1837,3 +1837,162 @@ mobile menu
     color: #f4c613;
     border-bottom: 3px solid #f4c613;
 }
+
+/**********************************
+Animation
+***********************************/
+#home-deading-1,
+#home-deading-2,
+#home-text,
+#home-button,
+#arrow-down {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+#home-heading-1 {    
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#home-heading-2 {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#home-text {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; 
+}
+
+#home-button {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s; 
+}
+
+#arrow-down {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+
+
+/*======Overwriting animate.css===========*/
+
+/*======fadeInDown Y-axis -50% instead of -100% ===========*/
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/*======fadeInUp Y-axis 30% instead of 100%===========*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 30%, 0);
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/*======fadeInLeft X-axis -30% instead of -100% ===========*/
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-30%, 0, 0);
+    transform: translate3d(-30%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-30%, 0, 0);
+    transform: translate3d(-30%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/*======fadeInright X-axis 30% instead of 100%===========*/
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(30%, 0, 0);
+    transform: translate3d(30%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(30%, 0, 0);
+    transform: translate3d(30%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
