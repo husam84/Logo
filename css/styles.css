@@ -14,6 +14,7 @@ dark-milky:    #e0e0e0;
 /**********************************
 Global
 ***********************************/
+
 html,
 body {
     height: 100%;
@@ -52,6 +53,7 @@ ul {
 /**********************************
 Buttons
 ***********************************/
+
 .btn-general {
     font-family: "Raleway", sans-serif;
     font-size: 0.8125rem;
@@ -65,7 +67,7 @@ Buttons
     margin: 0 auto;
     width: 12rem;
     -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;  
+    transition: all 0.4s linear;
 }
 
 .btn:hover {
@@ -73,6 +75,7 @@ Buttons
 }
 
 /*======Button home=============*/
+
 .btn-home {
     color: #fff;
     width: 11rem;
@@ -92,6 +95,7 @@ Buttons
 }
 
 /*======Button yellow=============*/
+
 .btn-yellow {
     color: #fff;
     background-color: #f4c613;
@@ -109,6 +113,7 @@ Buttons
 }
 
 /*======Button white=============*/
+
 .btn-white {
     color: #212226;
     background-color: #fff;
@@ -128,6 +133,7 @@ Buttons
 /**********************************
 carousel prev next buttons
 ***********************************/
+
 .owl-theme .owl-nav[class*="owl-"] {
     font-size: 3rem;
     color: #212226;
@@ -149,9 +155,10 @@ carousel prev next buttons
 /**********************************
 Content boxes
 ***********************************/
+
 .content-box-lg {
     padding: 100px 0;
-   
+
 }
 
 .content-box-md {
@@ -163,6 +170,7 @@ Headings
 ***********************************/
 
 /*======Vertical heading =============*/
+
 .vertical-heading h5 {
     position: relative;
     left: -51px;
@@ -190,6 +198,7 @@ Headings
 }
 
 /*======Vertical heading white=============*/
+
 .vertical-heading-white h5,
 .vertical-heading-white h2,
 .vertical-heading-white strong,
@@ -198,6 +207,7 @@ Headings
 }
 
 /*======Horizontal heading =============*/
+
 .horizontal-heading {
     margin-bottom: 80px;
 }
@@ -229,6 +239,7 @@ Headings
 /**********************************
 Social Icons
 ***********************************/
+
 .social-list {
     margin: 10px auto;
     display: inline-block;
@@ -280,6 +291,7 @@ Social Icons
 }
 
 /*======social icons hover and smooth transition=============*/
+
 .social-list li:hover {
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
@@ -916,7 +928,7 @@ Services Section -02 [tabs]
 
 #service-tabs li a:hover,
 li.r-tabs-state-active a,
-.r-tabs-accordion-title .r-tabs-anchor:hover  {
+.r-tabs-accordion-title .r-tabs-anchor:hover {
     color: #f4c613;
     border-bottom: 3px solid #f4c613;
     padding-bottom: 5px;
@@ -947,7 +959,7 @@ li.r-tabs-state-active a,
 }
 
 #services-02 .btn-yellow:hover {
-    width: 90%;    
+    width: 90%;
 }
 
 .service-tab h2,
@@ -986,9 +998,10 @@ li.r-tabs-state-active a,
 
 
 /*======tabs when they hit smaller breakpoints============*/
+
 .r-tabs-accordion-title {
     text-align: center;
-    margin: 10px 0;    
+    margin: 10px 0;
 }
 
 .r-tabs-accordion-title .r-tabs-anchor {
@@ -1003,7 +1016,7 @@ li.r-tabs-state-active a,
     transition: all 0.2s linear;
 }
 
-    
+
 .r-tabs-accordion-title.r-tabs-state-active a,
 .r-tabs-accordion-title.r-tabs-state-active a:hover {
     color: #f4c613;
@@ -1011,7 +1024,7 @@ li.r-tabs-state-active a,
     padding-bottom: 5px;
     font-weight: 800;
     text-align: center;
-}   
+}
 
 /**********************************
 Portfolio
@@ -1369,13 +1382,13 @@ Pricing
 
 /*======buttons=============*/
 
-.price-button .btn {    
+.price-button .btn {
     margin: 20px 0;
 }
 
 .pricing:hover .btn-yellow {
     background: #fff;
-    color: #212226;    
+    color: #212226;
 }
 
 .pricing:hover .btn-yellow:hover {
@@ -1480,7 +1493,7 @@ Clients
 
 #clients .client img {
     min-width: 50px;
-    max-width: 150px;    
+    max-width: 150px;
     display: inline-block;
 }
 
@@ -1637,7 +1650,7 @@ Footer
 .footer {
     background: #212226;
     color: #fff;
-    padding: 30px 0;    
+    padding: 30px 0;
 }
 
 .footer p {
@@ -1667,10 +1680,11 @@ Footer
 /**********************************
 Nav
 ***********************************/
-.navbar {    
-    padding: 35px 0; 
+
+.navbar {
+    padding: 35px 0;
     -webkit-transition: all 0.4s linear;
-    transition: all 0.4s linear;  
+    transition: all 0.4s linear;
 }
 
 .nav-wrapper {
@@ -1678,7 +1692,7 @@ Nav
 }
 
 ul.nav li {
-   padding: 15px;
+    padding: 15px;
 }
 
 ul.nav li a {
@@ -1689,20 +1703,21 @@ ul.nav li a {
     font-weight: 600;
     padding: 0;
     -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;     
+    transition: all 0.2s linear;
 }
 
-ul.nav li a:hover{
+ul.nav li a:hover {
     background: none;
     color: #f4c613;
     border-bottom: 3px solid #f4c613;
 }
 
 ul.nav li a:focus {
-   background: none; 
+    background: none;
 }
 
 /*======White nav============*/
+
 .navbar-fixed-white {
     padding: 15px 0;
     background: #fff;
@@ -1715,16 +1730,17 @@ ul.nav li a:focus {
     color: #212226;
     border-bottom: 3px solid transparent;
     -webkit-transition: color 0.2s linear;
-    transition: color 0.2s linear; 
-} 
+    transition: color 0.2s linear;
+}
 
-.navbar-fixed-white ul.nav li a:hover{
+.navbar-fixed-white ul.nav li a:hover {
     border-bottom: 3px solid #f4c613;
     color: #f4c613;
 }
 
 
 /*======Scroll spy============*/
+
 .navbar-fixed-white ul.nav li.active a {
     border-bottom: 3px solid #f4c613;
     color: #f4c613;
@@ -1732,9 +1748,10 @@ ul.nav li a:focus {
 
 
 /*======back to top button============*/
+
 .btn-back-to-top {
     position: fixed;
-    right:20px;
+    right: 20px;
     bottom: 20px;
     padding: 3px 15px;
     border-radius: 5px;
@@ -1766,16 +1783,16 @@ mobile menu
 }
 
 #mobile-menu-btn-open {
-    color: #f4c613; 
+    color: #f4c613;
     font-size: 2rem;
     top: 5px;
     right: 0;
     z-index: 2;
-    
+
 }
 
 #mobile-menu-btn-close {
-    color: #212226; 
+    color: #212226;
     font-size: 3rem;
     top: 18px;
     right: 15px;
@@ -1784,7 +1801,7 @@ mobile menu
 }
 
 #mobile-nav {
-    background: rgba(255,255,255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     width: 100%;
     height: 0%;
     position: fixed;
@@ -1817,10 +1834,11 @@ mobile menu
     padding: 0;
     border-bottom: 3px solid transparent;
     -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear; 
+    transition: all 0.2s linear;
 }
 
 /*======hover============*/
+
 #mobile-menu-btn-open:hover,
 #mobile-menu-btn-close:hover {
     -webkit-transform: rotate(180deg);
@@ -1829,7 +1847,7 @@ mobile menu
 
 #mobile-menu-btn-close:hover,
 #mobile-menu-btn-close:active {
-    color: #f4c613;     
+    color: #f4c613;
 }
 
 #nav-menu a:hover {
@@ -1839,6 +1857,7 @@ mobile menu
 }
 
 /*======Scroll spy============*/
+
 #nav-menu li.active a {
     background: none;
     color: #f4c613;
@@ -1848,6 +1867,7 @@ mobile menu
 /**********************************
 Animation
 ***********************************/
+
 #home-deading-1,
 #home-deading-2,
 #home-text,
@@ -1857,7 +1877,7 @@ Animation
     animation-duration: 1.5s;
 }
 
-#home-heading-1 {    
+#home-heading-1 {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
@@ -1869,12 +1889,12 @@ Animation
 
 #home-text {
     -webkit-animation-delay: 2s;
-    animation-delay: 2s; 
+    animation-delay: 2s;
 }
 
 #home-button {
     -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s; 
+    animation-delay: 2.5s;
 }
 
 #arrow-down {
@@ -1887,119 +1907,121 @@ Animation
 /*======Overwriting animate.css===========*/
 
 /*======fadeInDown Y-axis -50% instead of -100% ===========*/
+
 @-webkit-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0);
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+    }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0);
-  }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 /*======fadeInUp Y-axis 30% instead of 100%===========*/
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 30%, 0);
-    transform: translate3d(0, 30%, 0);
-  }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 30%, 0);
-    transform: translate3d(0, 30%, 0);
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0);
+    }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 /*======fadeInLeft X-axis -30% instead of -100% ===========*/
-@-webkit-keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-30%, 0, 0);
-    transform: translate3d(-30%, 0, 0);
-  }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-30%, 0, 0);
+        transform: translate3d(-30%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-30%, 0, 0);
-    transform: translate3d(-30%, 0, 0);
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-30%, 0, 0);
+        transform: translate3d(-30%, 0, 0);
+    }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 /*======fadeInright X-axis 30% instead of 100%===========*/
-@-webkit-keyframes fadeInRight {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(30%, 0, 0);
-    transform: translate3d(30%, 0, 0);
-  }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(30%, 0, 0);
+        transform: translate3d(30%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 @keyframes fadeInRight {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(30%, 0, 0);
-    transform: translate3d(30%, 0, 0);
-  }
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(30%, 0, 0);
+        transform: translate3d(30%, 0, 0);
+    }
 
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
-
-
-

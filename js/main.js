@@ -23,57 +23,60 @@ $(window).on('load', function () {
         $(".buttons-filter").find(".active").removeClass("active");
         $(this).addClass("active");
     });
-    
+
     /*===========animation after the page is fully loaded=================================================*/
     $("#home-heading-1").addClass("animated fadeInDown");
     $("#home-heading-2").addClass("animated fadeInRight");
     $("#home-text").addClass("animated fadeInLeft");
     $("#home-button").addClass("animated zoomIn");
     $("#arrow-down").addClass("animated fadeInDown infinite");
-    
+
 
     /*===========Google Maps==============================================================================*/
-    function initMap(){
-        var uluru = {lat: 51.508039, lng: -0.128069};
+    function initMap() {
+        var uluru = {
+            lat: 51.508039,
+            lng: -0.128069
+        };
         var contentString = 'Trafalgar Square, London WC2N 5DN';
-        
+
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 8,
-          center: uluru
+            zoom: 8,
+            center: uluru
         });
-        
+
         var marker = new google.maps.Marker({
-          position: uluru,
-          map: map,
-          animation: google.maps.Animation.BOUNCE      
+            position: uluru,
+            map: map,
+            animation: google.maps.Animation.BOUNCE
         });
-        
+
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });
-        
-        marker.addListener('mouseover', function(){
-            
+
+        marker.addListener('mouseover', function () {
+
             if (marker.getAnimation() !== null) {
                 marker.setAnimation(null);
             } else {
                 marker.setAnimation(google.maps.Animation.BOUNCE);
-            } 
+            }
         });
-        
-        marker.addListener('click', function() {
-            infowindow.open(map, marker);  
-            
-        }); 
 
-    /******** center content *****/
+        marker.addListener('click', function () {
+            infowindow.open(map, marker);
 
-    google.maps.event.addDomListener(window, 'resize', function(){
+        });
+
+        /******** center content *****/
+
+        google.maps.event.addDomListener(window, 'resize', function () {
             var center = map.getCenter();
             google.maps.event.trigger(map, 'resize');
             map.setCenter(center);
-        }); 
-    } 
+        });
+    }
 
     initMap();
 });
@@ -84,12 +87,12 @@ Document ready function
 
 $(function () {
     /*===========Pause video on mobile screens================================================*/
-    var width = $( window ).width();
-    
+    var width = $(window).width();
+
     if (width <= 767) {
-        $("#home-video-bg").removeAttr( "loop" );
+        $("#home-video-bg").removeAttr("loop");
     }
-    
+
     /*===========Owl carousel-Team============================================================*/
     $("#team-right").owlCarousel({
         items: 2,
@@ -258,9 +261,9 @@ $(function () {
         $("html, body").animate({
             scrollTop: $(sectionID).offset().top - 50
         }, 2000, "easeOutExpo");
-    });   
-    
+    });
+
     /*===========Wow animation (animate on scroll)=============================================================*/
     new WOW().init();
-    
+
 });
