@@ -89,8 +89,8 @@ $(function () {
     /*===========Pause video on mobile screens================================================*/
     var width = $(window).width();
 
-    if (width <= 767) {
-        $("#home-video-bg").removeAttr("loop");
+    if (width > 767) {
+        $("#home-video-bg").attr("autoplay", "loop");
     }
 
     /*===========Owl carousel-Team============================================================*/

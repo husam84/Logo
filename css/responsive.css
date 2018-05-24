@@ -380,13 +380,7 @@ Extra small devices (portrait tablets and landscape phones) < 767px
     .btn-home:hover,
     .btn-home:focus {
         width: initial;
-    }
-
-    /*======mobile menu============*/
-    #mobile-menu-btn-open,
-    #mobile-menu-btn-close {
-        display: block;
-    }
+    }    
 
     .navbar {
         padding: 25px 0;
@@ -837,5 +831,16 @@ Fixing issue with nav container for certain widths
 @media only screen and (min-width: 990px) and (max-width: 1100px) {
     .header .container {
         width: 900px;
+    }
+}
+
+/*************************************************
+Fixing mobile menu not showing on mobiles
+**************************************************/
+@media only screen and (min-width: 768px) {
+    /*======mobile menu============*/
+    #mobile-menu-btn-open,
+    #mobile-menu-btn-close {
+        display: none;
     }
 }
